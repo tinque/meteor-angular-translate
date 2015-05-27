@@ -7,6 +7,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.1.0.2');
-  api.addFiles('angular-translate.min.js');
+  api.versionsFrom('0.9.0');
+  api.use('urigo:angular');
+  api.addFiles('angular-translate.min.js','client');
 });
