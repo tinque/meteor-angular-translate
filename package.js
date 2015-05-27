@@ -7,7 +7,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('0.9.0');
-  api.use('urigo:angular');
+  api.versionsFrom('METEOR@0.9.0.1');
+  api.use('urigo:angular@0.8.10');
   api.addFiles('angular-translate.min.js','client');
 });
